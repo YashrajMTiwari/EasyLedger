@@ -1,9 +1,0 @@
-[phases.setup]
-apt_packages = ["python3", "python3-pip"]
-
-
-[phases.start]
-commands = ["python manage.py migrate", "python manage.py runserver 0.0.0.0:$PORT"]
-
-[phases.start]
-commands = ["python manage.py migrate", "python manage.py runserver 0.0.0.0:$PORT"]
