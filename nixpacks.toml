@@ -2,7 +2,7 @@
 apt_packages = ["python3", "python3-pip"]
 
 [phases.install]
-commands = ["python3 -m pip install --upgrade pip", "pip3 install -r requirements.txt"]
+commands = ["python3 -m pip install --upgrade pip", "python3 -m pip install -r requirements.txt"]
 
 [phases.build]
 commands = ["python3 manage.py migrate"]
@@ -11,4 +11,4 @@ commands = ["python3 manage.py migrate"]
 commands = ["python3 manage.py runserver 0.0.0.0:${PORT}"]
 
 [languages.python]
-version = "3.12"
+version = "3.9"  # Or specify the exact Python version your project requires
