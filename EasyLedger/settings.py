@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-292gwlko2*^tbb(psf41h6x9wwjhjejwi9wqre@6^=i)dh+9ma
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['easyledger-production.up.railway.app']
+ALLOWED_HOSTS = [*]
 
 
 # Application definition
